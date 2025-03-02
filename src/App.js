@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Horray you found a project of mine!</h1>
       <h1>Clicker Game</h1>
       <p>Score: {score}</p>
       <button onClick={() => setScore(score + 1)}>Click Me!</button>
